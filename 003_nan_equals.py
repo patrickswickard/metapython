@@ -25,6 +25,8 @@ else:
 
 # also note nan is viral
 # it's a "special" float and any interaction with it turns the result into nan
+# note that it DOES NOT BREAK - it just makes the result into a nan float
+# and then pretty soon you have a huge NAN cloud in your data
 
 print(a)
 b = 1
