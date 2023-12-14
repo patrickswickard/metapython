@@ -21,3 +21,13 @@ else:
   blowuptheworld()
 
 # OOOPS!
+
+
+# also note nan is viral
+# it's a "special" float and any interaction with it turns the result into nan
+
+print(a)
+b = 1
+print(b)
+b = b*a
+print(b)
